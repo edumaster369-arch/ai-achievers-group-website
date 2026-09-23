@@ -3,7 +3,7 @@ import logoImage from '../images/logo.jpg'
 import workingPhoto from '../images/working.jpg'
 import styles from './page.module.css'
 
-const bookingLink = 'BOOKING_LINK_GOES_HERE'
+const bookingLink = 'https://cal.com/achievers-group/20min'
 
 export default function HomePage() {
   return (
@@ -121,7 +121,6 @@ export default function HomePage() {
           <p className={styles.sectionLabel}>Start with a conversation</p>
           <h2 id="contact-title">Make the next batch easier to see.</h2>
           <a className={styles.primaryButton} href={bookingLink}>Book a 20 minute call <span aria-hidden="true">↗</span></a>
-          <p className={styles.bookingNote}>To add your booking link, replace BOOKING_LINK_GOES_HERE in app/page.js.</p>
           <div className={styles.contactLinks}>
             <a href="https://wa.me/917058190468?text=Hello%20MockTrack%2C%20I%27d%20like%20to%20know%20more.">Message me on WhatsApp</a>
             <a href="mailto:edumaster369@gmail.com?subject=MockTrack%20enquiry">Email me</a>
